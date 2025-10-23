@@ -1,0 +1,72 @@
+/* Layout container */
+.user-layout {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar styling */
+.user-sidebar {
+  width: 220px;
+  background-color: #1f2937; /* Dark gray */
+  color: #f9fafb;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Sidebar heading */
+.user-sidebar h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Link styles */
+.user-sidebar a {
+  color: #d1d5db;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  font-weight: 500;
+}
+
+/* Active and hover state */
+.user-sidebar a.active {
+  background-color: #4f46e5;
+  color: white;
+}
+
+.user-sidebar a:hover {
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+/* Content area */
+.user-content {
+  flex: 1;
+  background-color: #f9fafb;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+/* Optional: improve link grouping on smaller screens */
+@media (max-width: 768px) {
+  .user-layout {
+    flex-direction: column;
+  }
+
+  .user-sidebar {
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .user-content {
+    padding: 1rem;
+  }
+}

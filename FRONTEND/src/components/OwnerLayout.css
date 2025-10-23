@@ -1,0 +1,11 @@
+.owner-layout {
+  display: flex;
+}
+
+.owner-main {
+  margin-left: 220px; /* same as sidebar width */
+  padding: 2rem;
+  width: 100%;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}

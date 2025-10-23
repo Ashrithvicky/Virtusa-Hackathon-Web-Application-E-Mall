@@ -1,0 +1,45 @@
+.user-bookings {
+  padding: 2rem;
+}
+
+.user-bookings h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.user-bookings table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.user-bookings th,
+.user-bookings td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.user-bookings th {
+  background-color: #f3f4f6;
+}
+
+.user-bookings button.cancel {
+  background-color: #ef4444;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.user-bookings button.cancel:hover {
+  background-color: #dc2626;
+}
+
+.empty {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  margin-top: 2rem;
+}

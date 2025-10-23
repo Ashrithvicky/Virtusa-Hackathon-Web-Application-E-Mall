@@ -1,0 +1,114 @@
+/* File: src/OwnerCssPages/OwnerSpaceAllocation.css */
+
+.space-allocation-container {
+  padding: 2rem;
+  background-color: #f3f4f6;
+  min-height: 100vh;
+  margin-left: 220px; /* adjust for sidebar */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+/* Form styling */
+.add-space-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.add-space-form input,
+.add-space-form select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 200px;
+}
+
+.add-space-form button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.add-space-form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Table styling */
+.space-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.space-table th,
+.space-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.space-table th {
+  background-color: #f9fafb;
+  color: #374151;
+  font-weight: 600;
+}
+
+/* Status tags */
+.status {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.status.allocated {
+  background-color: #ef4444; /* Red */
+}
+
+.status.free {
+  background-color: #10b981; /* Green */
+}
+
+/* Buttons */
+button.allocate {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.deallocate {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.delete {
+  background-color: #6b7280;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

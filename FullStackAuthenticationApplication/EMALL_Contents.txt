@@ -1,0 +1,16 @@
+E-Mall Property Management System
+
+Our User Case E-Mall Property Management System... first let me design the Owner part and enter into user part...
+
+i thought of keeping four pages for the owner
+1. Dashboard Page..(Contains Monthly, weekly - sales, Spaces View - like it should show month view...booked space will be in red colour and freee spces or days will be in green colour...) and mini calender like view with those colour combination to provide a gist view for the owner
+
+2. Spaces allocation page - owner has the authority to allocate the spaces and deallocate spaces...like shop- small, Medium, large.. Atirium Part 1,part 2..Cinema theaters, marketing banners)
+
+3. Complaints page - it will be having two tables... one table contains the complaints arised from the users... and that table are named pending complaints..and next table will contain the complaints...that are resolved..)
+
+4. Reports page - it should show the revenue..for the data specified...and should show the available spaces...and occupied spaces with user name...
+
+how is this plan? wanna improve anything here?
+
+could you design the frontend react pages for this ??

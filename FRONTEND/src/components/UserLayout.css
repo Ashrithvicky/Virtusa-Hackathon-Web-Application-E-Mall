@@ -1,0 +1,42 @@
+.user-layout {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.user-sidebar {
+  width: 220px;
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.user-sidebar h2 {
+  margin-bottom: 1rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.user-sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  display: block;
+  transition: background 0.2s;
+}
+
+.user-sidebar a.active,
+.user-sidebar a:hover {
+  background-color: #4f46e5;
+}
+
+.user-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f3f4f6;
+  overflow-y: auto;
+}
